@@ -1,0 +1,29 @@
+""" TODO:
+
+1. Download:
+- music
+- photos
+- profile info
+- wall posts
+- friends
+- groups
+- videos
+
+2. Render downloaded data
+
+Getting accesss token:
+https://oauth.vk.com/authorize?client_id=5101065&display=page&redirect_uri=http://api.vk.com/blank.html&scope=audio&photos&response_type=token
+"""
+
+import music
+import photos
+
+secret_key = ""
+# Arseny 52213040
+# Dima 4003067
+user_id = "4003067"
+
+#music.get_music(user_id, secret_key)
+photos.get_photos(user_id, secret_key)
+
+print("Done.")
